@@ -57,13 +57,16 @@ $(document).ready(function() {
             if(pattern.test($(this).val())){
                 $(this).css({'border' : '1px solid #569b44'});
                 $('#valid').text('Верно');
+                $('#submit_email').attr('disabled', false);
             } else {
                 $(this).css({'border' : '1px solid #ff0000'});
                 $('#valid').text('Не верно');
+                $('#submit_email').attr('disabled', true);
             }
         } else {
             $(this).css({'border' : '1px solid #ff0000'});
             $('#valid').text('Поле email не должно быть пустым');
+            $('#submit_email').attr('disabled', true);
         }
     });
 });

@@ -37271,3 +37271,155 @@ puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
   Rendering /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
   Rendered /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (319.5ms)
+Started POST "/contacts" for 127.0.0.1 at 2016-08-20 19:46:06 +0300
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jixfTLTRJToA84Ev1xp0cH84p4CjzCfc3XQqAvqIKgK/BEnmRjdv4UXcf1zmAFNIx5aKJuowSoJYK1BvtCcFfw==", "contact"=>{"name"=>"RR RR RR", "email"=>"artemww.com", "phone"=>"321325", "vk"=>"qq", "message"=>""}, "commit"=>"Отправить Сообщение"}
+  Rendering /home/artem/.rvm/gems/ruby-2.3.0/gems/mail_form-1.3.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /home/artem/.rvm/gems/ruby-2.3.0/gems/mail_form-1.3.0/lib/mail_form/views/mail_form/contact.erb (4.0ms)
+MailForm::Notifier#contact: processed outbound mail in 655.4ms
+Sent mail to artem-vorobiov_pavlovich@mail.ru (44.5ms)
+Date: Sat, 20 Aug 2016 19:46:09 +0300
+From: RR RR RR <>
+To: artem-vorobiov_pavlovich@mail.ru
+Message-ID: <57b8895128ca8_21a31e83978462a8@artem-VirtualBox.mail>
+Subject: ChinaDanceTeam
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">ChinaDanceTeam</h4>
+
+
+  <p><b>Name:</b>
+  RR RR RR</p>
+
+  <p><b>Email:</b>
+  artemww.com</p>
+
+  <p><b>Phone:</b>
+  321325</p>
+
+  <p><b>Vk:</b>
+  qq</p>
+
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2863ms (Views: 400.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/libs/modernizr/modernizr.js" for 127.0.0.1 at 2016-08-20 19:46:09 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/libs/modernizr/modernizr.js"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered collection of /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [11 times] (5.9ms)
+  Rendered /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendering /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (109.6ms)
+Started POST "/contacts" for 127.0.0.1 at 2016-08-20 19:46:47 +0300
+Processing by ContactsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jixfTLTRJToA84Ev1xp0cH84p4CjzCfc3XQqAvqIKgK/BEnmRjdv4UXcf1zmAFNIx5aKJuowSoJYK1BvtCcFfw==", "contact"=>{"name"=>"RR RR RR", "email"=>"artemw@w.com", "phone"=>"321325", "vk"=>"qq", "message"=>""}, "commit"=>"Отправить Сообщение"}
+  Rendering /home/artem/.rvm/gems/ruby-2.3.0/gems/mail_form-1.3.0/lib/mail_form/views/mail_form/contact.erb
+  Rendered /home/artem/.rvm/gems/ruby-2.3.0/gems/mail_form-1.3.0/lib/mail_form/views/mail_form/contact.erb (2.2ms)
+MailForm::Notifier#contact: processed outbound mail in 38.1ms
+Sent mail to artem-vorobiov_pavlovich@mail.ru (103.0ms)
+Date: Sat, 20 Aug 2016 19:46:47 +0300
+From: RR RR RR <artemw@w.com>
+To: artem-vorobiov_pavlovich@mail.ru
+Message-ID: <57b889775d07d_21a31e83c0c463a5@artem-VirtualBox.mail>
+Subject: ChinaDanceTeam
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<h4 style="text-decoration:underline">ChinaDanceTeam</h4>
+
+
+  <p><b>Name:</b>
+  RR RR RR</p>
+
+  <p><b>Email:</b>
+  artemw@w.com</p>
+
+  <p><b>Phone:</b>
+  321325</p>
+
+  <p><b>Vk:</b>
+  qq</p>
+
+
+  Rendering contacts/create.html.erb within layouts/application
+  Rendered contacts/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 340ms (Views: 194.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/libs/modernizr/modernizr.js" for 127.0.0.1 at 2016-08-20 19:46:47 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/libs/modernizr/modernizr.js"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.1.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered collection of /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [11 times] (24.7ms)
+  Rendered /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendering /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/artem/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (120.7ms)

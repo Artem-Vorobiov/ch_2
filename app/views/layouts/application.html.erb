@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>China6</title>
+
+
+		<script src="libs/modernizr/modernizr.js"></script>
+		<script src="https://use.fontawesome.com/2501772074.js"></script>
+
+	  <meta http-equiv="Content-Type" content="text/html; charset=windows1251">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+		<script src="https://use.typekit.net/huu8mlz.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'media', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'magnific-popup', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'jquery.magnific-popup', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'common', 'data-turbolinks-track': 'reload' %>
+    
+		<%= javascript_include_tag 'modernizr', 'data-turbolinks-track': 'reload' %>
+
+
+
+  </head>
+
+  <body>
+    <%= yield %>
+
+  </body>
+</html>

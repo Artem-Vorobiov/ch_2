@@ -1,0 +1,382 @@
+/* line 17, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 21, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+body {
+  font-family: "brandon-grotesque", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 26, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+.wrapper {
+  width: 1440px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* line 32, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+.button {
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  padding: .6rem 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* line 43, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+.button_highlight {
+  background: #7ac483;
+}
+
+/* line 47, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+.button_secondary {
+  background: rgba(250, 250, 250, 0.35);
+}
+
+/* line 51, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+.button_small {
+  padding: .3rem 1.5rem;
+}
+
+/* line 55, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+.button_large {
+  padding: 1rem 5rem;
+  font-size: 1.35rem;
+}
+
+/* line 60, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+.cf:after,
+.cf:before {
+  content: " ";
+  display: table;
+}
+
+/* line 66, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+.cf:after {
+  clear: both;
+}
+
+/* line 73, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#banner {
+  background-image: url(/assets/banner2-f18569de606ce819a1189ec6700b48e1eacc2673897ece83dea949f4bb35e1e4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* line 78, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#banner header {
+  padding: 2rem 0;
+}
+/* line 81, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#banner #logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.35rem;
+  float: left;
+  margin: 0;
+  border: 3px solid #fff;
+  padding: 10px;
+}
+/* line 89, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#banner #logo span {
+  font-weight: 400;
+}
+/* line 93, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#banner nav {
+  float: right;
+}
+/* line 95, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#banner nav a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+/* line 102, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#banner .content {
+  padding: 4rem 0 8rem 0;
+}
+/* line 104, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#banner .content .title, #banner .content .sub_title {
+  color: #fff;
+  text-align: center;
+}
+/* line 108, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#banner .content .title {
+  font-size: 3.5rem;
+  margin: 0;
+}
+/* line 112, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#banner .content .sub_title {
+  font-weight: 400;
+  font-size: 1.35rem;
+  margin: 0 auto 2rem auto;
+  line-height: 1.75;
+}
+/* line 119, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#banner .content .button_wrapper {
+  text-align: center;
+  margin: 3rem 0;
+}
+/* line 122, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#banner .content .button_wrapper .button {
+  margin: 0 .75rem;
+}
+/* line 126, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#banner .content .see_more {
+  position: absolute;
+  left: 50%;
+  margin-left: -15px;
+  bottom: 90px;
+}
+
+/* line 137, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#services {
+  background: #f2f1f8;
+  padding: 2rem 0 6.5rem 0;
+  position: relative;
+}
+/* line 141, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#services .service {
+  background: #fff;
+  width: 31%;
+  float: left;
+  margin: -5rem 1% 0 1%;
+  padding: 3rem 2.5%;
+  text-align: center;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+  -moz-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+  box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+  border-radius: .35rem;
+}
+/* line 153, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#services .service h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #3f3d4e;
+}
+/* line 158, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#services .service p {
+  margin: 0 0 2rem 0;
+  color: #3f3d4e;
+}
+/* line 162, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#services .service .button {
+  padding: .5rem 2rem;
+}
+/* line 165, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#services .service:after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  bottom: -50px;
+  height: 50px;
+  border-left: 2px solid #c9c7d3;
+}
+/* line 175, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#services .middle:after {
+  bottom: -105px;
+  height: 105px;
+}
+/* line 180, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#services:before {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  bottom: 54px;
+  border-top: 2px solid #c9c7d3;
+  width: 59.5%;
+  margin-left: -30.1%;
+}
+
+/* line 193, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work {
+  background: #d8a995;
+  padding: 5rem 0 25rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+/* line 199, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work .title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 0 0 .75rem 0;
+}
+/* line 204, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work .logos {
+  width: 750px;
+  max-width: 95%;
+}
+/* line 208, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work #slider_buttons {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+/* line 212, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work #slider_buttons a {
+  text-decoration: none;
+}
+/* line 215, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work #slider_buttons li {
+  width: 9px;
+  height: 9px;
+  margin: 0 .5rem;
+  position: relative;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: #5b596e;
+  transition: background .4s ease-in-out;
+}
+/* line 224, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work #slider_buttons li:hover {
+  background: #7ac483;
+}
+/* line 228, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work #slider_buttons .current {
+  background-color: #7ac483;
+}
+/* line 232, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work #slider {
+  list-style: none;
+}
+/* line 234, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work #slider li {
+  width: 600px;
+  height: 375px;
+  overflow: hidden;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+  -moz-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+  box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+  position: absolute;
+  z-index: 3;
+  border-radius: .35rem .35rem 0 0;
+}
+/* line 245, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work #slider li img {
+  width: 100%;
+}
+/* line 248, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work #slider li:nth-child(1) {
+  bottom: -37px;
+  left: 0;
+  -webkit-transform: scale(0.8, 0.8);
+  -moz-transform: scale(0.8, 0.8);
+  transform: scale(0.8, 0.8);
+  z-index: 2;
+}
+/* line 256, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work #slider li:nth-child(2) {
+  left: 50%;
+  margin-left: -300px;
+  z-index: 4;
+  bottom: 0;
+}
+/* line 262, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#past_work #slider li:nth-child(3) {
+  bottom: -37px;
+  right: 0;
+  -webkit-transform: scale(0.8, 0.8);
+  -moz-transform: scale(0.8, 0.8);
+  transform: scale(0.8, 0.8);
+  z-index: 2;
+}
+
+/* line 276, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#contact {
+  background: #f2f1f8;
+  padding: 6rem 0 8rem 0;
+  text-align: center;
+}
+/* line 280, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#contact .title {
+  font-size: 2.5rem;
+  color: #3f3d4e;
+  margin: 0;
+}
+/* line 285, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#contact .sub_title {
+  font-size: 1.5rem;
+  color: #b9b7c6;
+  width: 600px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 4rem auto;
+}
+
+/* line 295, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+footer {
+  padding: 1rem 0;
+}
+/* line 297, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+footer .copyright {
+  text-align: center;
+  font-weight: 700;
+  color: #b9b7c6;
+}
+/* line 301, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+footer .copyright a {
+  color: #7ac483;
+  text-decoration: none;
+}
+
+/* line 310, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#test-form {
+  padding: 0px;
+  background: #fff;
+  max-width: 320px;
+  margin: 40px auto;
+  border-radius: 8px;
+  border: 3px solid brown;
+  position: relative;
+  color: #3f3d4e;
+}
+/* line 319, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#test-form input, #test-form textarea {
+  width: 100%;
+  margin-bottom: 13px;
+}
+/* line 323, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#test-form h1 {
+  color: #424652;
+  margin: 2px;
+}
+/* line 327, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#test-form .wrAdm {
+  padding: 2px;
+  margin: 0px auto;
+  font-family: "brandon-grotesque", Helvetica, sans-serif;
+}
+
+/* line 335, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+.hidden {
+  display: none;
+}
+
+/* line 338, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#communication {
+  margin: 0px auto;
+  border-radius: 8px;
+  border: 3px solid #8bc6db;
+  width: 300px;
+  height: 300px;
+  background: #fff;
+}
+/* line 345, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#communication h3 {
+  color: #424652;
+  padding: 5px;
+  text-align: center;
+}
+/* line 350, /home/artem/learning/china_6/app/assets/stylesheets/application.css.scss */
+#communication p {
+  padding: 7px;
+}

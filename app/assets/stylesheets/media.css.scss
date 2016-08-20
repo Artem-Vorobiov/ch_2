@@ -1,0 +1,129 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#banner .wrapper header {
+		padding: 1rem;
+	}
+	header {
+		text-align: center;
+		margin: 0px auto;
+		}
+	#banner .wrapper header nav #btn_a{
+		padding: .6rem 2.5rem;
+	}
+	#banner  header nav {
+		margin: 25px auto;
+		float: none;
+	}
+	#banner  header nav a{
+		margin-left: 1rem;
+	}
+	#banner  header nav a #btn_a_f{
+		margin-top: 5px;
+	}
+	#banner  header #logo {
+		float:none;
+		padding: 5px;
+	}
+	.content  .sub_title {
+		text-align: center;
+	}
+	#banner .wrapper .content .button_wrapper {
+	}
+	#banner .wrapper .content .button_wrapper .btn_1 {
+		display: block;
+	}
+	#banner .wrapper .content .button_wrapper .btn_2 {
+		cursor: pointer;
+		visibility: hidden;
+	}
+	#services .wrapper a {
+		visibility: hidden;
+	}
+	#services .wrapper{
+		width:300px;
+	}
+	#services .wrapper .service {
+		width: 100%;
+		margin:0px;
+		padding: 10px 0px;
+
+	}
+	#services .wrapper .service p {
+		margin: 0px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	#logo{
+		text-align: center;
+	}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

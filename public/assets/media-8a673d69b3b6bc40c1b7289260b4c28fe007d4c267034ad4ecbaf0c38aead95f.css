@@ -1,0 +1,114 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /*Disable Animation on Mobile Devices*/
+  /* line 18, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  .animated {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /* line 43, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  #banner .wrapper header {
+    padding: 1rem;
+  }
+
+  /* line 46, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  header {
+    text-align: center;
+    margin: 0px auto;
+  }
+
+  /* line 50, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  #banner header nav {
+    margin: 7px;
+    float: none;
+  }
+
+  /* line 54, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  #banner header nav a {
+    margin-left: 1rem;
+  }
+
+  /* line 57, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  #banner header nav a #btn_a_f {
+    margin-top: 5px;
+  }
+
+  /* line 60, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  #banner header #logo {
+    float: none;
+    padding: 5px;
+  }
+
+  /* line 64, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  .content .sub_title {
+    text-align: center;
+  }
+
+  /* line 69, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  #banner .wrapper .content .button_wrapper .btn_1 {
+    display: block;
+  }
+
+  /* line 72, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  #banner .wrapper .content .button_wrapper .btn_2 {
+    cursor: pointer;
+    visibility: hidden;
+  }
+
+  /* line 76, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  #services .wrapper a {
+    visibility: hidden;
+  }
+
+  /* line 79, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  #services .wrapper {
+    width: 300px;
+  }
+
+  /* line 82, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  #services .wrapper .service {
+    width: 100%;
+    margin: 0px;
+    padding: 10px 0px;
+  }
+
+  /* line 88, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  #services .wrapper .service p {
+    margin: 0px;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* line 95, /home/artem/learning/china_6/app/assets/stylesheets/media.css.scss */
+  #logo {
+    text-align: center;
+  }
+}
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */

@@ -150,7 +150,7 @@
 		<%= f.text_field :name, placeholder: "Лучший Артем Леонидович", required: "true" %>
 
 		<br>
-
+		<span id="valid"></span>
 		<%= f.label :email, "Почта", class: "f_label_all" %>
 		<%= f.text_field :email, placeholder: "example@domain.com", required: "true" %>
 
@@ -172,7 +172,7 @@
 
 		<br>
 
-		<%= f.submit "Отправить Сообщение" %>
+		<%= f.submit "Отправить Сообщение", onclick: "validation()" %>
 
 		<br>
 

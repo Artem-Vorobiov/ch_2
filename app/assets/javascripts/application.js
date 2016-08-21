@@ -17,4 +17,5 @@
 //= require jquery.magnific-popup
 //= require common
 //= require jquery.tipTip.minified
+//= require countdown
 //= require_tree .

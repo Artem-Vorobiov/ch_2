@@ -4,7 +4,7 @@
 Rails.application.config.assets.version = '1.0'
 
 
-Rails.application.config.assets.precompile += ['modernizr.js', 'media.css', 'common.js', 'jquery.magnific-popup.js', 'magnific-popup.css']
+Rails.application.config.assets.precompile += ['modernizr.js', 'jquery.tipTip.minified.js', 'tipTip.css', 'media.css', 'common.js', 'jquery.magnific-popup.js', 'magnific-popup.css']
 
 
 # Add additional assets to the asset load path

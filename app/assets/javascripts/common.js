@@ -69,4 +69,5 @@ $(document).ready(function() {
             $('#submit_email').attr('disabled', true);
         }
     });
+    //$(".contact_email").tipTip({maxWidth: 200, edgeOffset: 10, activation: "focus", defaultPosition: "top"});
 });

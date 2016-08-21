@@ -19,7 +19,7 @@
 					</div>
 
 					
-					<div class="see_more"><%= image_tag "arrows_down.png" %>
+					<div class="see_more" title="Hellou world..."><%= image_tag "arrows_down.png" %>
 					</div>	
 				</div>
 			</div>
@@ -152,7 +152,7 @@
 		<br>
 		<span id="valid"></span>
 		<%= f.label :email, "Почта", class: "f_label_all" %>
-		<%= f.text_field :email, placeholder: "example@domain.com", required: "true" %>
+		<%= f.text_field :email, placeholder: "example@domain.com", required: "true", class: 'contact_email', title: "TipTip works..." %>
 
 		<br>
 

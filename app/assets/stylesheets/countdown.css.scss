@@ -1,35 +1,24 @@
 /* Contdonwn */
 
-body {
-    background: #222 url('../images/bg.gif') repeat;
-    color: #fff;
-    -moz-text-shadow: 0 -1px 0 #000;
-    -webkit-text-shadow: 0 -1px 0 #000;
-    text-shadow: 0 -1px 0 #000;
-    font-family: 'Helvetica Neue','Helvetica','Arial', sans-serif;
+#countdown {
+    background-color: #EBE6E1;
+    padding: 20px 0px 35px;
 }
 
 .bg-gradient {
-    position: fixed;
-    width: 1000px;
-    height: 1000px;
     top: 50%;
     left: 50%;
     z-index: -1;
-    margin: -500px 0 0 -500px;
-    background: url('../images/bg-gradient.png') no-repeat center;
 }
 
 .container {
     text-align: center;
     margin: 0 auto;
-    width: 800px;
-    height: 400px;
-    position: absolute;
+    width: 75%;
+    height: 45%;
     top: 50%;
     left: 50%;
-    margin: -200px 0 0 -400px;
-}
+    }
     
 h1,
 h2 {
@@ -53,7 +42,7 @@ h2 {
 #CDT {
     font-size: 60px;
     color: #eee;
-    margin: 70px 0 100px;
+
     font-weight: bold;
 }
 

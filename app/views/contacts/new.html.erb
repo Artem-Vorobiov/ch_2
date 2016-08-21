@@ -152,7 +152,7 @@
 		<br>
 		<span id="valid"></span>
 		<%= f.label :email, "Почта", class: "f_label_all" %>
-		<%= f.text_field :email, placeholder: "example@domain.com", required: "true", class: 'contact_email', title: "TipTip works..." %>
+		<%= f.text_field :email, placeholder: "example@domain.com", required: "true", class: 'contact_email' %>
 
 		<br>
 
@@ -172,7 +172,7 @@
 
 		<br>
 
-		<%= f.submit "Отправить Сообщение", id: 'submit_email' %>
+		<%= f.submit "Отправить Сообщение", id: 'submit_email', class: 'submit_email' %>
 
 		<br>
 

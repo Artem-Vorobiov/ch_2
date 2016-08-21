@@ -55,19 +55,17 @@ $(document).ready(function() {
         if($(this).val() != '') {
             var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
             if(pattern.test($(this).val())){
-                $(this).css({'border' : '1px solid #569b44'});
-                $('#valid').text('Верно');
+            	$(".submit_email").tipTip({maxWidth: 200, edgeOffset: 10, activation: "hover", defaultPosition: "top", content: "Вы сможете отправить сообщение после правильного ввода ваших данных."})
+                $(".contact_email").tipTip({maxWidth: 200, edgeOffset: 10, activation: "focus", defaultPosition: "top", content: "Адрес вашей почты заполнен не корректно"});
                 $('#submit_email').attr('disabled', false);
             } else {
-                $(this).css({'border' : '1px solid #ff0000'});
-                $('#valid').text('Не верно');
+                $(".contact_email").tipTip({maxWidth: 200, edgeOffset: 10, activation: "focus", defaultPosition: "top", content: "Адрес вашей почты заполнен не корректно"});
                 $('#submit_email').attr('disabled', true);
             }
         } else {
-            $(this).css({'border' : '1px solid #ff0000'});
-            $('#valid').text('Поле email не должно быть пустым');
+        	$(".submit_email").tipTip({maxWidth: 200, edgeOffset: 10, activation: "hover", defaultPosition: "top", content: "Вы сможете отправить сообщение после правильного ввода ваших данных."});
+            $(".contact_email").tipTip({maxWidth: 200, edgeOffset: 10, activation: "focus", defaultPosition: "top", content: "Поле должно быть заполненно."});
             $('#submit_email').attr('disabled', true);
         }
     });
-    //$(".contact_email").tipTip({maxWidth: 200, edgeOffset: 10, activation: "focus", defaultPosition: "top"});
 });

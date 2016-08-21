@@ -444,5 +444,20 @@ ymaps {
 	
 }
 
+////////------  FAVicon ------ //////
 
+#toTop {
+	width: 80px;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+	display: none;
+	background: #f2f2f2;
+	border: 2px solid #b1b1b1;
+	border-radius: 5px;
+	text-align: center;
+	text-shadow: 0px 0px 1px black;
+	box-shadow: 0px 0px 57px 0px rgba(4,6,9, .5);
+}
 

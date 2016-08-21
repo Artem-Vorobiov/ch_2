@@ -51,6 +51,24 @@ function validation(){
 */
 
 $(document).ready(function() {
+// ---- Блок прокрутки вверх
+
+	$('body').append('<div id="toTop">Наверх </div>');
+	$(window).scroll(function(){
+		if($(this).scrollTop() > 200 ) {
+			$('#toTop').fadeIn();
+		} else {
+			$('#toTop').fadeOut();
+		}
+	});
+
+	$('#toTop').click(function(){
+		$("body, html").animate({scrollTop: 0}, 400);
+	});
+
+
+
+// ---- Код для вспылвающих подсказок & валидация на лету для почты 
 
 	$(".btn_1").tipTip({maxWidth: 200, edgeOffset: 10, activation: "hover", defaultPosition: "top", content: "Здесь вы можете связаться с администрацией."});
 

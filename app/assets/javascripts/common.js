@@ -1,9 +1,7 @@
 $(function() {
-	$(".popup").magnificPopup();
 
-	$(".hm").click(function(){
-		alert("jQuery - click");
-	});
+	//PopUp
+	$(".popup").magnificPopup();
 
 	//SVG Fallback
 	if(!Modernizr.svg) {
@@ -12,19 +10,17 @@ $(function() {
 		});
 	};
 
-
-
 	//Chrome Smooth Scroll
 	try {
 		$.browserSelector();
 		if($("html").hasClass("chrome")) {
 			$.smoothScroll();
 		}
-	} catch(err) {
+	} catch(err) {};
 
-	};
-
-	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
+	$("img, a").on("dragstart", function(event) { 
+		event.preventDefault(); 
+	});
 	
 });
 
@@ -36,21 +32,9 @@ $(window).load(function() {
 
 });
 
-/*
-function validation(){
-	var email = document.getElementById('contact_email').value;
-	var regVEmail =  /\A([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})\z/i;
-	var result = email.search(regVEmail);
-	//alert(result);
-	if (result == "-1"){
-		alert("Error");
-	}
-	else alert(result);
-}
-
-*/
 
 $(document).ready(function() {
+
 // ---- Блок прокрутки вверх
 
 	$('body').append('<div id="toTop">Наверх </div>');
@@ -66,7 +50,11 @@ $(document).ready(function() {
 		$("body, html").animate({scrollTop: 0}, 400);
 	});
 
+// ---- Scroll to button
 
+	$('.see_more').click(function(){
+		$('body, html').animate({scrollTop: $('#countdown').offset().top }, 400);
+	});
 
 // ---- Код для вспылвающих подсказок & валидация на лету для почты 
 
